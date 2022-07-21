@@ -1,5 +1,7 @@
 ## Запуск приложения без Докера
 
+- Установить все зависимости `poetry install`
+- Создать файл .env `cp sample.env .env`
 - Запуск миграций БД `alembic upgrade head`
 - Перейти в директорию src `cd src`
 - Запустить сервер `uvicorn main:app --port=8080`
